@@ -7,9 +7,36 @@ html {
 	background-color: #0f0f0f;
 }
 
+/* CSS| classses |CSS */
+
+.description {
+	color: #f1f1f1;
+	display: inline-block;
+}
+
 .name {
 	color: #f1f1f1;
+	display: inline-block;
 	font-family: "HammersmithOne Regular", sans-serif;
+	font-size: 40px;
 	font-weight: 600;
 	text-align: center;
+	margin-left: 10px;
 }
+
+.photo {
+	position: relative;
+	margin-top: 50px;
+	display: inline-block;
+}
+
+.top-buttons {
+	background-color: #ffa500;
+	border: none;
+	color: #f1f1f1;
+	display: inline-block;
+	font-size: 15px;
+	position: top;
+}
+
+/* ___________________________________________ */
