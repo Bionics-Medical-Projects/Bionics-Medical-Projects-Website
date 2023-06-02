@@ -1,0 +1,25 @@
+.subscribe-button {
+	background-color: #f1f1f1;
+	border: none;
+	height: 36px;
+	width: 95px;
+	border-radius: 20px;
+
+	cursor: pointer;
+
+	color: #0f0f0f;
+	font-size: 10;
+	font-family: "Roboto", "Arial", sans-serif;
+}
+
+.tweet-button {
+	background-color: #1DA1F2;
+	border: none;
+	height: 36px;
+	width: 75px;
+	border-radius: 25px;
+
+	cursor: pointer;
+
+	color: white;
+}
