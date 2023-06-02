@@ -1,17 +1,33 @@
+/*  | FONTS | */
+
 @font-face {
 	font-family: "HammersmithOne Regular";
 	src: url(font/HammersmithOne-Regular.ttf)
 }
 
+@font-face {
+	font-family: "segoe ui";
+	src: url(font/SEGOEUI.TTF);
+}
+
+/* ___________________________________________ */
+
+
+/* | FILE BACKGROUND | */
+
 html {
 	background-color: #0f0f0f;
 }
+
+/* ___________________________________________ */
+
 
 /* CSS| classses |CSS */
 
 .description {
 	color: #f1f1f1;
 	display: inline-block;
+	font-family: "segoe ui", sans-serif;
 }
 
 .name {
