@@ -1,1 +1,15 @@
+@font-face {
+	font-family: "HammersmithOne Regular";
+	src: url(font/HammersmithOne-Regular.ttf)
+}
 
+html {
+	background-color: #0f0f0f;
+}
+
+.name {
+	color: #f1f1f1;
+	font-family: "HammersmithOne Regular", sans-serif;
+	font-weight: 600;
+	text-align: center;
+}
