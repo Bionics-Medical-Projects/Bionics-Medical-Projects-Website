@@ -1,1 +1,105 @@
+/*  | FONTS | */
 
+@font-face {
+	font-family: "Algerian";
+	src: url(font/Algerian\ Regular.ttf)
+}
+
+@font-face {
+	font-family: "segoe ui";
+	src: url(font/SEGOEUI.TTF);
+}
+
+/* ___________________________________________ */
+
+
+/* CSS| classses |CSS */
+
+.buttons-panel {
+	border: 1px;
+	border-left: 0px;
+	border-right: 0px;
+	border-style: groove;
+	border-top: 0px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container {
+	display: grid;
+	margin-top: 10px;
+	row-gap: 10px;
+}
+
+.content {
+	display: grid;
+	column-gap: 10px;
+	grid-template-columns: 400px 1fr;
+}
+
+.description {
+	font-family: "segoe ui", sans-serif;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.name {
+	color: #ff3300;
+	display: inline-block;
+	font-family: "Algerian", sans-serif;
+	font-size: 40px;
+	margin-top: 5px;
+	vertical-align: top;
+}
+
+.logo {
+	background-color: white;
+	border: none;
+	display: inline-block;
+	padding: 0%;
+}
+
+.logo-pic {
+	height: 60px;
+}
+
+.website-images {
+	max-width: 400px;
+}
+
+.screen {
+	margin: 0px;
+	padding-bottom: 200px;
+}
+
+.title {
+	border-bottom: 2px;
+	border-left: 0px;
+	border-right: 0px;
+	border-style: groove;
+	border-top: 0px;
+	margin: 0px;
+}
+
+.top-buttons {
+	background-color: #f1f1f1;
+	border: none;
+	border-radius: 26px;
+	display: grid;
+	font-family: "HammersmithOne Regular", sans-serif;
+	font-size: 15px;
+	margin-bottom: 6px;
+	margin-left: 10px;
+	margin-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	transition: all 0.15s;
+}
+.top-buttons:hover {
+	background-color: #dfdfdf;
+	transform: scale(1.025);
+}
+
+/* ___________________________________________ */
