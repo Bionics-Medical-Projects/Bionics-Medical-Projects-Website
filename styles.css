@@ -15,10 +15,32 @@
 
 /* CSS| classses |CSS */
 
+.buttons-panel {
+	border: 1px;
+	border-left: 0px;
+	border-right: 0px;
+	border-style: groove;
+	border-top: 0px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container {
+	display: grid;
+	margin-top: 10px;
+	row-gap: 10px;
+}
+
+.content {
+	display: grid;
+	column-gap: 10px;
+	grid-template-columns: 400px 1fr;
+}
+
 .description {
-	color: #f1f1f1;
-	display: inline-block;
 	font-family: "segoe ui", sans-serif;
+	margin-bottom: 0px;
+	margin-top: 0px;
 }
 
 .name {
@@ -26,7 +48,7 @@
 	display: inline-block;
 	font-family: "Algerian", sans-serif;
 	font-size: 40px;
-	margin-top: 10px;
+	margin-top: 5px;
 	vertical-align: top;
 }
 
@@ -37,35 +59,47 @@
 	padding: 0%;
 }
 
-.picture {
+.logo-pic {
 	height: 60px;
 }
 
-.photo {
-	display: inline-block;
-	margin-left: 15px;
-	margin-right: 30px;
-	margin-top: 50px;
-	width: 400px;
+.website-images {
+	max-width: 400px;
+}
+
+.screen {
+	margin: 0px;
+	padding-bottom: 200px;
+}
+
+.title {
+	border-bottom: 2px;
+	border-left: 0px;
+	border-right: 0px;
+	border-style: groove;
+	border-top: 0px;
+	margin: 0px;
 }
 
 .top-buttons {
-	background-color: #ffa500;
+	background-color: #f1f1f1;
 	border: none;
 	border-radius: 26px;
-	color: #f1f1f1;
-	display: inline-block;
+	display: grid;
 	font-family: "HammersmithOne Regular", sans-serif;
 	font-size: 15px;
+	margin-bottom: 6px;
+	margin-left: 10px;
+	margin-top: 5px;
 	padding-bottom: 5px;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 5px;
-	transition: all 0.2s;
+	transition: all 0.15s;
 }
 .top-buttons:hover {
-	background-color: #e89700;
-	transform: scale(1.15);
+	background-color: #dfdfdf;
+	transform: scale(1.025);
 }
 
 /* ___________________________________________ */
